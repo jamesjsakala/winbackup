@@ -16,8 +16,11 @@ The Script Utilises 7zip for compression.
   
  # Settings (Files)
 
-For MySQL Databases Edit : C:\JBACKUP\MySQLDBsToBackUp.txt
-  Add Databases to backup. 1 on each line
+  For MySQL Databases Edit : C:\JBACKUP\MySQLDBsToBackUp.txt
+  
+  Add Databases to backup. 1 on each line.
+  NOTE : The Script assumes your XAMP is installed in : C:\xampp. 
+         If not editthe script variables accordingly.
  
   
   For Microsoft SQL Server Databases Edit : C:\JBACKUP\DBsToBackUp.txt
